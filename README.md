@@ -9,3 +9,18 @@ In traditional molecular biology, genetic stability and replication fidelity are
 1. **The Helix Constraint:** The double helix is a macroscopic manifestation of a structural field twist ($\hat{\mathcal{T}}_{twist}$). Its primary geometry is designed to isolate the inner information density ($\rho$) from nonlocal thermodynamic noise.
 2. **Replication as a Turning Point:** When helicases uncoil the strands during replication or transcription, the local time relaxation constant ($\tau$) drops to its critical state. This uncoiling event forces the genetic sequence directly into a **Topological Turning Point**.
 3. **TIMDR Self-Cleaning:** If a transcription error or external mutation (noise) occurs, the structural symmetry is broken. Because the system is inherently self-cleaning, the `trm-dna-stabilizer` triggers a geometric resonance that automatically sheds the unstable nielokalne anomalies, forcing the matrix back into a mathematically homogeneous state verified by `math-validator-2.0`.
+
+4. 
+[ Double Helix State ] ──► [ Uncoiling / Twist Release ] 
+                                       │
+                                       ▼
+                             ┌──────────────────┐
+                             │  TURNING POINT   │ ◄── TIMDR Resonance Trigger
+                             └────────┬─────────┘
+                                      │
+                                      ▼
+                           [ SELF-CLEANING FILTER ]
+                        (Aperiodic Noise Expulsion)
+                                      │
+                                      ▼
+                         [ Purified Genetic Output ]
