@@ -24,3 +24,11 @@ In traditional molecular biology, genetic stability and replication fidelity are
                                       │
                                       ▼
                          [ Purified Genetic Output ]
+
+# Mathematical Alignment
+
+The verification constraint for a noise-free genetic transition sequence is governed by the boundary conditions of the topological manifold $\mathcal{M}_{dna}$:
+
+$$\oint_{\mathcal{M}_{dna}} \left( \rho_{nucleotide} \cdot \frac{\partial \Lambda_{scale}}{\partial \tau} \right) \cdot \hat{\mathcal{T}}_{twist} \, d\omega = 0$$
+
+If this integral deviates from zero, the system detects a geometric rupture (mutation) and invokes the internal reduction operator to realign the matrix.
